@@ -56,7 +56,7 @@ export const validateForm = (fields: Fields) => {
         return { password: "Password must be at least six characters!" };
 
       if (!password2 || password !== password2)
-        return { password2: "Password don't match!" };
+        return { password2: "Passwords don't match!" };
     }
   }
 
